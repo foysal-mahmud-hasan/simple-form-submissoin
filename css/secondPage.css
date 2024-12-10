@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  font-family: "Azeret Mono", monospace;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-box {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #f2f3f8;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+}
+
+.title-section {
+  padding-left: 35px;
+  padding-top: 5px;
+  background-color: #f2f3f8;
+  margin-bottom: 0px;
+}
+.divider {
+  height: 1px;
+  background-color: black;
+}
+
+.title {
+  color: #26323a;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.text {
+  margin: 0px;
+  padding: 0px;
+  color: #1e2c37;
+  font-weight: 500;
+}
+
+.text-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.text-input p {
+  margin: 0;
+  width: 120px;
+  font-size: 0.9rem;
+  text-align: right;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+  flex: 1;
+  padding: 8px;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  background-color: #6ba54f;
+  border: 2px solid #5b7d4d;
+  padding: 5px;
+  width: 100px;
+  color: #031100;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.button:hover {
+  background-color: #5b7d4d;
+}
